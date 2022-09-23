@@ -3,7 +3,7 @@ import { Comment } from './comment'
 import styles from './Post.module.css'
 
 /* usar {} no className quando é uma variavel  */
-export function Post () {
+export function Post (props) {
     return (   /* parte do cabecalho */
     <article className={styles.post} >
         <header>

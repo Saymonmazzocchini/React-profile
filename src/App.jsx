@@ -9,7 +9,7 @@ const posts =[    //poste 1
   {
     id:1,
     author: {
-        avatarUrl:'https://github.diego3g.png',
+        avatarUrl:'https://github.com/diego3g.png',
         nome: 'Diego Fernandes',
         role: 'CTO @ Rocketseat'
     },
@@ -24,7 +24,7 @@ const posts =[    //poste 1
  {        
   id:2,
   author: {
-      avatarUrl:'https://github.maykbrito.png',
+      avatarUrl:'https://github.com/maykbrito.png',
       nome: 'Mayk Brito',
       role: 'Educator @Rocketseat'
   },
@@ -43,7 +43,9 @@ export function App() {
       <Header />
       
     <div className={styles.wrapper}>
+     
          <Sidebar />
+        
     <main>   
       {posts.map(post =>{
         return (<

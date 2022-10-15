@@ -16,7 +16,9 @@ export function Comment({content, onDeleteComment}){
 
                                      // FUNCAO de contagem de likes
     function handleLikeComment(){
-        setLikeCount(likeCount + 1);
+        setLikeCount((state)=>{
+            return state + 1
+        });
     }
 
     return (

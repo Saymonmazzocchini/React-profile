@@ -37,6 +37,7 @@
 }
 
 .Sidebar footer a {
+    width: 100%;
     background: transparent;
     color: var(--green-500);
     border: 1px solid var(--green-500);
@@ -52,7 +53,7 @@
     justify-content: center;
     gap: 0.5rem; 
 
-    /* transicao de animaco do botao*/
+    /* transicao de animação do botao*/
     transition: color 0.3s , background-color 0.2s ;
 
 }
